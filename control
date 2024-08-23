@@ -1,0 +1,9 @@
+Package: ndbx-tweak
+Name: ndbx-tweak
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Redirect Weather and Stocks app requests to any server URL that you want! Change the URLs in settings. 
+Maintainer: Notdbrand
+Author: Notdbrand
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceLoader 

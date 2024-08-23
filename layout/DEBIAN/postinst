@@ -1,0 +1,18 @@
+#!/bin/bash
+
+files=(
+    "/var/mobile/Library/Preferences/ndbx-pref.plist"
+    "/path/to/another/file.jpg"
+)
+
+for file in "${files[@]}"; do
+    if [ -f "$file" ]; then
+        echo "Clearing previous settings."
+        rm -f "$file"
+    else
+        echo "Error."
+    fi
+done
+
+echo "Initialization done!"
+
