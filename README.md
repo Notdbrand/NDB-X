@@ -1,4 +1,6 @@
 # NDB-X
+!!!Very Broken!!! Don't Install! While it still works, it breaks the weather app's current weather icons. 
+
 The source code for my tweak that allows you to change the URLs of the weather and stocks app to any URL you want.
 
 The URLs can be changed in the setting app and it defaults to my server.
